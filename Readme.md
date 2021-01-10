@@ -1,7 +1,26 @@
-# NumPY Python library
+## How to get started
 
-Welcome to my repository this is the where magic about numpy happen <br>
-**NumPy** is a Python library used for working with arrays. <br>
-It also has functions for working in domain of linear algebra, fourier transform, and matrices. <br>
-NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.<br>
-NumPy stands for Numerical Python.
+First install it using pip
+
+```
+pip install numpy
+```
+
+Then import it
+
+```Python
+import numpy
+```
+
+You also use alias for example np
+
+```Python
+import numpy as np
+```
+
+Congratulation you can start use numpy, for example you can crate check numpy version with
+
+```Python
+import numpy as np
+print(np.__version__)
+```
