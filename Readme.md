@@ -24,3 +24,11 @@ Congratulation you can start use numpy, for example you can crate check numpy ve
 import numpy as np
 print(np.__version__)
 ```
+
+create different array dimension with numpy
+
+```Python
+import numpy as np
+#1D dimension array
+arr=np.array([1,2,3])
+```
